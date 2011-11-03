@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /graphics/metapost/contrib/macros/garrigues
+# catalog-date 2009-11-10 09:15:37 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-garrigues
 Version:	20091110
 Release:	1
@@ -41,6 +47,7 @@ pages 88-104).
 %{_texmfdistdir}/metapost/garrigues/garrigues.mp
 %doc %{_texmfdistdir}/doc/metapost/garrigues/README
 %doc %{_texmfdistdir}/doc/metapost/garrigues/article.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -51,3 +58,5 @@ pages 88-104).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
