@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-garrigues
 Version:	20091110
-Release:	7
+Release:	8
 Summary:	MetaPost macros for the reproduction of Garrigues' Easter nomogram
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/garrigues
