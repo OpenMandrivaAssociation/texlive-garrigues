@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	MetaPost macros for the reproduction of Garrigues' Easter nomogram
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/garrigues
+URL:		https://www.ctan.org/tex-archive/graphics/metapost/contrib/macros/garrigues
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/garrigues.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/garrigues.doc.r%{version}.tar.xz
